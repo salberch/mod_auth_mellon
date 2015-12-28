@@ -796,6 +796,15 @@ For Apache 2.4 exists shorter notation:
 Editing, appending, overwriting headers is possible in other cases.
 
 ===========================================================================
+ SSL proxy 
+===========================================================================
+It allows to force the use of an https:// URL (when you are behind an 
+SSL proxy it is needed) by configuring your VirtualHost
+like that:
+
+ServerName https://example.com
+
+===========================================================================
  Support
 ===========================================================================
 
